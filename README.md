@@ -1,2 +1,1 @@
-# test_tecnic
-# test_tecnic
+Prueba tecnoca cde automatizacion de inicio de sesion en Ripley.com
