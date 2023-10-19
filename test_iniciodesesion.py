@@ -25,8 +25,8 @@ class TestIniciodesesion():
     self.driver.find_element(By.CSS_SELECTOR, ".my-account__box").click()
     self.driver.find_element(By.CSS_SELECTOR, "div > .my-account__desktop:nth-child(2)").click()
     self.driver.find_element(By.NAME, "ws_username").click()
-    self.driver.find_element(By.NAME, "ws_username").send_keys("255251627")
-    self.driver.find_element(By.NAME, "password").send_keys("Gjde2112.")
+    self.driver.find_element(By.NAME, "ws_username").send_keys("")
+    self.driver.find_element(By.NAME, "password").send_keys("")
     self.driver.find_element(By.NAME, "password").send_keys(Keys.ENTER)
     elements = self.driver.find_elements(By.CSS_SELECTOR, ".svg-icon-ripley_com > use")
     assert len(elements) > 0
